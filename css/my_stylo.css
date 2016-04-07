@@ -1,0 +1,84 @@
+.logo {
+  height: 50px;
+  width: 50px;
+  margin-top: -15px;
+}
+
+.jumbotron{
+  background: url(../img/imagen_primaria.jpg) no-repeat center center;
+  padding: 230px 0px;
+  text-align: center;
+  background-attachment: fixed;
+  background-size: cover;
+  margin-bottom: 0;
+}
+
+.division{
+  width: 400px;
+  border-top: 1px solid #f8f8f8;
+  border-bottom: 1px solid;
+}
+
+.seccion_a {
+  background-color: #f8f8f8;
+  padding: 50px 0;
+}
+
+.seccion_b {
+  border-top: 1px solid #e7e7e7;
+  border-bottom: 1px solid #e7e7e7;
+  padding: 50px 0;
+}
+
+.seccion_subrayado {
+  border-top: 3px solid #e7e7e7;
+  width: 170px;
+  float: left;
+}
+
+.margen_h2 {
+  margin-bottom: 30px;
+}
+
+
+.parrafo_corto {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.panel {
+  margin-bottom: 5px;
+}
+
+.thumbnail{
+  margin-top: 120px;
+}
+
+.banner {
+  margin-top: 30px;
+  padding: 90px 0;
+  color: #f8f8f8;
+  background: url(../img/baner.jpg) no-repeat center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.banner h2{
+  margin-bottom: 30px;
+}
+
+.scrollup, .scrollup:hover, .scrollup:focus{
+  width: 40px;
+  height: 40px;
+  background-image: url(../img/icon_para_scroll.png);
+  display: block;
+  color: transparent;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  opacity: .5;
+}
+
+body, h1, h2, h3, h4, h5, h6 {
+  font-family: 'Ubuntu', sans-serif;
+}
